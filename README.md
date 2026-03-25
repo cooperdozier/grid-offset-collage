@@ -1,1 +1,4 @@
 https://cooperdozier.github.io/grid-offset-collage/
+There is a Summer Members Show at MaybeItsFate (.com) co-operative which I am a member of and I am thinking of creating a canvas giclee print of something like this to submit (or actually, I'll submit a screenshot from my large monitor and get a canvas print made if it's accepted). There's also a large digital screen in portrait mode that I could have it displayed on in digital form. The values for which squares got which offsets (out of 8), which color and border properties (out of 9), and which images (out of 48) were selected by the integer generator at random.org.
+
+Further developments would include adding buttons for a reset to defaults, reset to zero (images 1-48 in positions 1-48 without offsets or color panels), and to individually set offsets and colors on each cell, and eventually a generator to reset everything in a random manner.
