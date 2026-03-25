@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <title>random-lists</title>
+    <script src="random-lists.js" async></script>
+    <style>
+        td {
+            padding: 0.4em;
+            border: 2px solid darkred;
+            border-radius: 0.2em;
+        }
+        table {
+            border-spacing: 0.4em;
+        }
+        .number-item {
+            background: url(sprite-regular.jpg);
+            display: inline-block;
+            height: 155px;
+            width: 155px;
+            padding: 0em;
+        }
+        #interface {
+            margin: auto;
+            max-width: 30em;
+        }
+         td, button {
+            background-color: #fff9c4;
+        }
+        body {
+            background-color: #bbdefb;
+            margin: auto;
+            max-width: 50em;
+        }
+        textarea {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>    
+    <div id="interface">
+        <label for="drawGlyph">Type in a topic or question to get ideas (not a yes or no question):</label><br>
+        <textarea required id="drawGlyph" name="drawGlyph" minlength="20" maxlength="300" rows="5" cols="50" 
+        placeholder="At least 20 characters suggested, max 300 characters"></textarea><br>
+        <button id="drawGlyphsTrigger">Get Three Random<br>Glyphs</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Glyph</th>
+                <th>Collection</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Associations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="glyph-properties-1"></td>
+                <td class="number-item"></td>
+                <td class="glyph-collection"></td>
+                <td class="glyph-properties-2"></td>
+                <td class="glyph-properties-3"></td>
+                <td class="glyph-properties-4"></td>
+            </tr>
+            <tr>
+                <td class="glyph-properties-1"></td>
+                <td class="number-item"></td></td>
+                <td class="glyph-collection"></td>
+                <td class="glyph-properties-2"></td>
+                <td class="glyph-properties-3"></td>
+                <td class="glyph-properties-4"></td>
+            </tr>
+            <tr>
+                <td class="glyph-properties-1"></td>
+                <td class="number-item"></td>
+                <td class="glyph-collection"></td>
+                <td class="glyph-properties-2"></td>
+                <td class="glyph-properties-3"></td>
+                <td class="glyph-properties-4"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
